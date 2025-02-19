@@ -7,7 +7,7 @@ function Projects() {
     {
       title: "CPP Flashcard ASIS",
       description: "A comprehensive iOS app designed to help professionals prepare for the ASIS Certified Protection Professional (CPP) exam. Features include flashcards covering all seven CPP domains, progress tracking, and offline access.",
-      image: "images/cpp-flashcard.jpg",
+      image: "./images/cpp-flashcard.jpg",
       appStoreLink: "https://apps.apple.com/us/app/cpp-flashcard-asis/id6741053163",
       websiteLink: "https://flashcpp.com"
     },
@@ -18,7 +18,7 @@ function Projects() {
     <Box id="projects" sx={{ py: 8, bgcolor: 'background.paper' }}>
       <Container>
         <Typography variant="h2" component="h2" gutterBottom align="center">
-          My Projects
+          Featured Projects
         </Typography>
         <Grid container spacing={4} sx={{ mt: 2 }}>
           {projects.map((project, index) => (

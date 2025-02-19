@@ -17,7 +17,7 @@ function Hero() {
         <Fade in={true} timeout={1000}>
           <Stack spacing={4} alignItems="center">
             <Avatar
-              src="images/profile.jpg"
+              src="./images/profile.jpg"
               alt="Shahab Geravesh"
               sx={{
                 width: 220,
