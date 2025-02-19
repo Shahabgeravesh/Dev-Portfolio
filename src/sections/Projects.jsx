@@ -7,7 +7,7 @@ function Projects() {
     {
       title: "CPP Flashcard ASIS",
       description: "A comprehensive iOS app designed to help professionals prepare for the ASIS Certified Protection Professional (CPP) exam. Features include flashcards covering all seven CPP domains, progress tracking, and offline access.",
-      image: "./images/cpp-flashcard.jpg",
+      image: "images/cpp-flashcard.jpg",
       appStoreLink: "https://apps.apple.com/us/app/cpp-flashcard-asis/id6741053163",
       websiteLink: "https://flashcpp.com"
     },
@@ -22,14 +22,23 @@ function Projects() {
         </Typography>
         <Grid container spacing={4} sx={{ mt: 2 }}>
           {projects.map((project, index) => (
-            <Grid item xs={12} sm={6} md={4} key={index}>
-              <Card sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
+            <Grid item xs={12} md={6} key={index}>
+              <Card sx={{ 
+                height: '100%', 
+                display: 'flex', 
+                flexDirection: 'column',
+                overflow: 'visible'
+              }}>
                 <CardMedia
                   component="img"
-                  height="200"
+                  height="300"
                   image={project.image}
                   alt={project.title}
-                  sx={{ objectFit: 'cover' }}
+                  sx={{ 
+                    objectFit: 'contain',
+                    p: 2,
+                    bgcolor: 'background.paper'
+                  }}
                 />
                 <CardContent sx={{ flexGrow: 1 }}>
                   <Typography gutterBottom variant="h5" component="h3">
@@ -39,13 +48,14 @@ function Projects() {
                     {project.description}
                   </Typography>
                 </CardContent>
-                <CardActions sx={{ padding: 2 }}>
-                  <Stack direction="row" spacing={2}>
+                <CardActions sx={{ p: 2 }}>
+                  <Stack direction="row" spacing={2} width="100%" justifyContent="center">
                     <Button 
                       startIcon={<AppleIcon />}
                       variant="contained"
                       href={project.appStoreLink}
                       target="_blank"
+                      sx={{ minWidth: 140 }}
                     >
                       App Store
                     </Button>
@@ -54,6 +64,7 @@ function Projects() {
                       variant="outlined"
                       href={project.websiteLink}
                       target="_blank"
+                      sx={{ minWidth: 140 }}
                     >
                       Website
                     </Button>
