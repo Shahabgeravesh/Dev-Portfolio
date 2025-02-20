@@ -4,6 +4,7 @@ import PhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
 import StorageIcon from '@mui/icons-material/Storage';
 import BubbleChartIcon from '@mui/icons-material/BubbleChart';
 import WorkIcon from '@mui/icons-material/Work';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 function Skills() {
   const skillCategories = [
@@ -54,6 +55,18 @@ function Skills() {
         "Strategic Planning",
         "Performance Analysis",
         "Compliance Management"
+      ]
+    },
+    {
+      title: "Open Source & Collaboration",
+      icon: <GitHubIcon fontSize="large" />,
+      skills: [
+        "68+ Public Repositories",
+        "Pull Shark Achievement",
+        "Version Control",
+        "Code Review",
+        "Team Collaboration",
+        "Technical Documentation"
       ]
     }
   ];

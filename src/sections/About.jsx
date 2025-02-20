@@ -38,9 +38,10 @@ function About() {
           <Grid item xs={12}>
             <Paper elevation={3} sx={{ p: 4 }}>
               <Typography variant="body1" paragraph>
-                I am a passionate Full Stack Developer and Mobile App Developer with expertise in creating 
-                comprehensive digital solutions. My approach combines technical excellence with creative 
-                problem-solving to deliver exceptional user experiences across web and mobile platforms.
+                I am a Software Engineer and Data Scientist with extensive experience in full-stack development 
+                and machine learning. With over 68 public repositories on GitHub and published research in AI, 
+                I combine technical expertise with practical implementation to deliver innovative solutions 
+                across web and mobile platforms.
               </Typography>
               <Typography variant="body1">
                 Whether it's building responsive web applications or developing native mobile apps, 

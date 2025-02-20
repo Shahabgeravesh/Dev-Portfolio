@@ -18,7 +18,7 @@ function Hero() {
           <Stack spacing={4} alignItems="center">
             <Avatar
               src="./images/profile.jpg"
-              alt="Shahab Geravesh"
+              alt="Shahab Geravesh - Software Engineer and Data Scientist based in Daly City, CA"
               sx={{
                 width: 220,
                 height: 220,
