@@ -11,7 +11,13 @@ function Projects() {
       appStoreLink: "https://apps.apple.com/us/app/cpp-flashcard-asis/id6741053163",
       websiteLink: "https://flashcpp.com"
     },
-    // Add more projects here
+    {
+      title: "Calculator Plus: All in One",
+      description: "A versatile iOS calculator app featuring standard calculations, scientific functions, and unit conversions. The clean, modern interface makes complex calculations simple and intuitive, perfect for students, professionals, and everyday use.",
+      image: "images/calculator-plus.jpg",
+      appStoreLink: "https://apps.apple.com/us/app/calculator-plus-all-in-one/id6742306451",
+      websiteLink: "#"
+    }
   ];
 
   return (
@@ -27,7 +33,11 @@ function Projects() {
                 height: '100%', 
                 display: 'flex', 
                 flexDirection: 'column',
-                overflow: 'visible'
+                overflow: 'visible',
+                transition: 'transform 0.3s ease-in-out',
+                '&:hover': {
+                  transform: 'translateY(-8px)'
+                }
               }}>
                 <CardMedia
                   component="img"
@@ -37,7 +47,8 @@ function Projects() {
                   sx={{ 
                     objectFit: 'contain',
                     p: 2,
-                    bgcolor: 'background.paper'
+                    bgcolor: 'background.paper',
+                    borderRadius: '16px'
                   }}
                 />
                 <CardContent sx={{ flexGrow: 1 }}>
@@ -55,19 +66,27 @@ function Projects() {
                       variant="contained"
                       href={project.appStoreLink}
                       target="_blank"
-                      sx={{ minWidth: 140 }}
+                      sx={{ 
+                        minWidth: 140,
+                        background: 'linear-gradient(45deg, #1976d2, #64b5f6)',
+                        '&:hover': {
+                          background: 'linear-gradient(45deg, #1565c0, #42a5f5)',
+                        }
+                      }}
                     >
                       App Store
                     </Button>
-                    <Button
-                      startIcon={<LanguageIcon />}
-                      variant="outlined"
-                      href={project.websiteLink}
-                      target="_blank"
-                      sx={{ minWidth: 140 }}
-                    >
-                      Website
-                    </Button>
+                    {project.websiteLink !== "#" && (
+                      <Button
+                        startIcon={<LanguageIcon />}
+                        variant="outlined"
+                        href={project.websiteLink}
+                        target="_blank"
+                        sx={{ minWidth: 140 }}
+                      >
+                        Website
+                      </Button>
+                    )}
                   </Stack>
                 </CardActions>
               </Card>
