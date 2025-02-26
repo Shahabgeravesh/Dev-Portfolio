@@ -5,7 +5,7 @@ Software Engineer and Data Scientist based in Daly City, CA. Specializing in ful
 
 ## Featured Projects
 - CPP Flashcard ASIS - iOS App
-- [Add other significant projects]
+
 
 ## Publications
 - Published research in Artificial Neural Networks for Human Activity Recognition
