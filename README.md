@@ -5,6 +5,8 @@ Software Engineer and Data Scientist based in Daly City, CA. Specializing in ful
 
 ## Featured Projects
 - CPP Flashcard ASIS - iOS App
+- Calculator Plus: All in One - iOS App
+- Weighttrail - iOS Fitness Tracking App
 
 
 ## Publications

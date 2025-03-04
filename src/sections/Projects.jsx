@@ -17,6 +17,13 @@ function Projects() {
       image: "images/calculator-plus.jpg",
       appStoreLink: "https://apps.apple.com/us/app/calculator-plus-all-in-one/id6742306451",
       websiteLink: "#"
+    },
+    {
+      title: "Weighttrail",
+      description: "A comprehensive fitness tracking iOS app that helps users monitor their weight loss journey. Features include progress tracking, goal setting, and personalized insights to help users achieve their fitness goals effectively.",
+      image: "images/weighttrail.jpg",
+      appStoreLink: "https://apps.apple.com/us/app/weighttrail/id6742477013",
+      websiteLink: "#"
     }
   ];
 
@@ -44,6 +51,10 @@ function Projects() {
                   height="300"
                   image={project.image}
                   alt={project.title}
+                  onError={(e) => {
+                    console.error(`Failed to load image: ${project.image}`);
+                    e.target.src = 'images/placeholder.jpg';
+                  }}
                   sx={{ 
                     objectFit: 'contain',
                     p: 2,

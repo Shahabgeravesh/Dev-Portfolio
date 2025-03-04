@@ -34,4 +34,14 @@
       <image:title>Calculator Plus: All in One - iOS App by Shahab Geravesh</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://shahabgeravesh.github.io/portfolio/#projects/weighttrail</loc>
+    <lastmod>2024-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://shahabgeravesh.github.io/portfolio/images/weighttrail.jpg</image:loc>
+      <image:title>Weighttrail - iOS Fitness Tracking App by Shahab Geravesh</image:title>
+    </image:image>
+  </url>
 </urlset> 
