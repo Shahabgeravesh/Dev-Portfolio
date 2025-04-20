@@ -5,6 +5,13 @@ import LanguageIcon from '@mui/icons-material/Language';
 function Projects() {
   const projects = [
     {
+      title: "NYK Court Officer Flashcards",
+      description: "An interactive iOS app designed to help candidates prepare for the NY Court Officer exam. Features include comprehensive flashcards covering key topics, memory & recall practice questions, reading comprehension exercises, grammar & spelling assessments, court terminology review, and situational judgment scenarios.",
+      image: "images/nyk-court.jpg",
+      appStoreLink: "https://apps.apple.com/us/app/court-officer-flashcards-app/id6744664594",
+      websiteLink: "#"
+    },
+    {
       title: "CPP Flashcard ASIS",
       description: "A comprehensive iOS app designed to help professionals prepare for the ASIS Certified Protection Professional (CPP) exam. Features include flashcards covering all seven CPP domains, progress tracking, and offline access.",
       image: "images/cpp-flashcard.jpg",
