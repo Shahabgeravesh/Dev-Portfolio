@@ -35,12 +35,18 @@ function Projects() {
   ];
 
   return (
-    <Box id="projects" sx={{ py: 8, bgcolor: 'background.paper' }}>
-      <Container>
-        <Typography variant="h2" component="h2" gutterBottom align="center">
+    <div style={{
+      width: '100%',
+      padding: '40px 20px',
+      backgroundColor: '#f8f9fa',
+      margin: '20px 0'
+    }}>
+      <Container maxWidth="lg">
+        <Typography variant="h2" component="h2" gutterBottom align="center" sx={{ mb: 4 }}>
           Featured Projects
         </Typography>
-        <Grid container spacing={4} sx={{ mt: 2 }}>
+        
+        <Grid container spacing={4}>
           {projects.map((project, index) => (
             <Grid item xs={12} md={6} key={index}>
               <Card sx={{ 
@@ -112,7 +118,7 @@ function Projects() {
           ))}
         </Grid>
       </Container>
-    </Box>
+    </div>
   );
 }
 

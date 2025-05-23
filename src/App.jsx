@@ -1,4 +1,4 @@
-import { ThemeProvider, CssBaseline, Box } from '@mui/material';
+import { ThemeProvider, CssBaseline } from '@mui/material';
 import { createTheme } from '@mui/material/styles';
 import Navbar from './components/Navbar';
 import Hero from './sections/Hero';
@@ -101,16 +101,7 @@ function App() {
       <CssBaseline />
       <div className="app">
         <Navbar />
-        <main style={{ 
-          width: '100%',
-          minHeight: '100vh',
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'center',
-          gap: '2rem',
-          padding: '2rem 0',
-          position: 'relative'
-        }}>
+        <main>
           <Hero />
           <About />
           <Skills />
