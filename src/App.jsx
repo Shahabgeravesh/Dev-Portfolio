@@ -5,8 +5,10 @@ import Hero from './sections/Hero';
 import About from './sections/About';
 import Skills from './sections/Skills';
 import Projects from './sections/Projects';
+import Videos from './sections/Videos';
 import Contact from './sections/Contact';
 import './App.css';
+import { useEffect } from 'react';
 
 // Create a theme instance
 const theme = createTheme({
@@ -85,6 +87,10 @@ const theme = createTheme({
 });
 
 function App() {
+  useEffect(() => {
+    console.log('App component mounted');
+  }, []);
+
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
@@ -95,6 +101,9 @@ function App() {
           <About />
           <Skills />
           <Projects />
+          <div style={{ border: '2px solid blue' }}> {/* Debug wrapper */}
+            <Videos />
+          </div>
           <Contact />
         </main>
       </div>
