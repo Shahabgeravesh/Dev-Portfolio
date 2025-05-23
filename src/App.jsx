@@ -1,4 +1,4 @@
-import { ThemeProvider, CssBaseline } from '@mui/material';
+import { ThemeProvider, CssBaseline, Box } from '@mui/material';
 import { createTheme } from '@mui/material/styles';
 import Navbar from './components/Navbar';
 import Hero from './sections/Hero';
@@ -89,6 +89,11 @@ const theme = createTheme({
 function App() {
   useEffect(() => {
     console.log('App component mounted');
+    // Debug: Log the height of main element
+    const mainElement = document.querySelector('main');
+    if (mainElement) {
+      console.log('Main element height:', mainElement.offsetHeight);
+    }
   }, []);
 
   return (
@@ -96,14 +101,21 @@ function App() {
       <CssBaseline />
       <div className="app">
         <Navbar />
-        <main>
+        <main style={{ 
+          width: '100%',
+          minHeight: '100vh',
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          gap: '2rem',
+          padding: '2rem 0',
+          position: 'relative'
+        }}>
           <Hero />
           <About />
           <Skills />
           <Projects />
-          <div style={{ border: '2px solid blue' }}> {/* Debug wrapper */}
-            <Videos />
-          </div>
+          <Videos />
           <Contact />
         </main>
       </div>

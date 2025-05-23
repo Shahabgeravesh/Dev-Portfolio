@@ -1,6 +1,6 @@
 #root {
   margin: 0 auto;
-  text-align: center;
+  width: 100%;
 }
 
 .logo {
@@ -42,6 +42,8 @@
 .app {
   width: 100%;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -49,7 +51,10 @@ header {
 }
 
 main {
-  max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
   padding-top: 64px; /* Height of the navbar */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
