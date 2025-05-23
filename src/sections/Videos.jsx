@@ -7,12 +7,12 @@ function Videos() {
     {
       id: 'KLlIpfHWbEE',
       title: 'Video 1',
-      url: 'https://youtu.be/KLlIpfHWbEE'
+      url: 'https://www.youtube.com/watch?v=KLlIpfHWbEE'
     },
     {
       id: 'v4O2t-3-as8',
       title: 'Video 2',
-      url: 'https://youtu.be/v4O2t-3-as8'
+      url: 'https://www.youtube.com/watch?v=v4O2t-3-as8'
     }
   ];
 
@@ -56,14 +56,21 @@ function Videos() {
                       width="100%"
                       height="100%"
                       controls
+                      playing={false}
+                      light={false}
                       config={{
                         youtube: {
                           playerVars: {
                             modestbranding: 1,
-                            rel: 0
+                            rel: 0,
+                            showinfo: 0,
+                            fs: 1,
+                            iv_load_policy: 3,
+                            playsinline: 1
                           }
                         }
                       }}
+                      onError={(e) => console.error('Video player error:', e)}
                     />
                   </Box>
                   <Box sx={{ p: 2 }}>
@@ -75,7 +82,13 @@ function Videos() {
                         href={video.url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        style={{ color: 'inherit', textDecoration: 'none' }}
+                        style={{ 
+                          color: 'inherit', 
+                          textDecoration: 'none',
+                          '&:hover': {
+                            textDecoration: 'underline'
+                          }
+                        }}
                       >
                         Watch on YouTube
                       </a>
