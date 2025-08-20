@@ -21,7 +21,7 @@ function Projects() {
     {
       title: "DateGenie",
       description: "A magical date planning app that makes date nights special with 72 curated date ideas. Features include scratch-off reveal functionality, categorized date suggestions (romantic, adventure, budget-friendly, luxury), and instant sharing with partners. Perfect for couples looking to break routine and discover new experiences.",
-      image: "images/dategenie.jpg",
+      image: "images/DateGenie.png",
       appStoreLink: "https://apps.apple.com/us/app/dategenie/id6749169858",
       websiteLink: "#"
     }
