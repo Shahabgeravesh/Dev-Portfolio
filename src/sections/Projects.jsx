@@ -5,7 +5,7 @@ import LanguageIcon from '@mui/icons-material/Language';
 function Projects() {
   const projects = [
     {
-      title: "NYK Court Officer Flashcards",
+      title: "Court Officer Flashcards App",
       description: "An interactive iOS app designed to help candidates prepare for the NY Court Officer exam. Features include comprehensive flashcards covering key topics, memory & recall practice questions, reading comprehension exercises, grammar & spelling assessments, court terminology review, and situational judgment scenarios.",
       image: "images/nyk-court.jpg",
       appStoreLink: "https://apps.apple.com/us/app/court-officer-flashcards-app/id6744664594",
