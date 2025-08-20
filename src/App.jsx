@@ -5,7 +5,7 @@ import Hero from './sections/Hero';
 import About from './sections/About';
 import Skills from './sections/Skills';
 import Projects from './sections/Projects';
-import Videos from './sections/Videos';
+
 import Contact from './sections/Contact';
 import './App.css';
 import { useEffect } from 'react';
@@ -106,7 +106,6 @@ function App() {
           <About />
           <Skills />
           <Projects />
-          <Videos />
           <Contact />
         </main>
       </div>
