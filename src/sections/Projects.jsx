@@ -19,17 +19,10 @@ function Projects() {
       websiteLink: "https://flashcpp.com"
     },
     {
-      title: "Calculator Plus: All in One",
-      description: "A versatile iOS calculator app featuring standard calculations, scientific functions, and unit conversions. The clean, modern interface makes complex calculations simple and intuitive, perfect for students, professionals, and everyday use.",
-      image: "images/calculator-plus.jpg",
-      appStoreLink: "https://apps.apple.com/us/app/calculator-plus-all-in-one/id6742306451",
-      websiteLink: "#"
-    },
-    {
-      title: "Weighttrail",
-      description: "A comprehensive fitness tracking iOS app that helps users monitor their weight loss journey. Features include progress tracking, goal setting, and personalized insights to help users achieve their fitness goals effectively.",
-      image: "images/weighttrail.jpg",
-      appStoreLink: "https://apps.apple.com/us/app/weighttrail/id6742477013",
+      title: "DateGenie",
+      description: "A magical date planning app that makes date nights special with 72 curated date ideas. Features include scratch-off reveal functionality, categorized date suggestions (romantic, adventure, budget-friendly, luxury), and instant sharing with partners. Perfect for couples looking to break routine and discover new experiences.",
+      image: "images/dategenie.jpg",
+      appStoreLink: "https://apps.apple.com/us/app/dategenie/id6749169858",
       websiteLink: "#"
     }
   ];
