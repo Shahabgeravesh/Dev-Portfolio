@@ -1,3 +1,21 @@
 User-agent: *
 Allow: /
-Sitemap: https://shahabgeravesh.github.io/portfolio/sitemap.xml 
+
+# Optimize crawling for SEO
+Crawl-delay: 1
+
+# Allow all search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Sitemap location
+Sitemap: https://shahabgeravesh.github.io/Dev-Portfolio/sitemap.xml
+
+# Additional SEO directives
+Host: https://shahabgeravesh.github.io/Dev-Portfolio/
