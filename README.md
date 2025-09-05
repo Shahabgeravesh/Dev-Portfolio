@@ -5,6 +5,7 @@ Software Engineer and Data Scientist based in Daly City, CA. Specializing in ful
 
 ## Featured Projects
 - **DateGenie** - iOS Date Planning App with scratch-off functionality and 72 curated date ideas
+- **Guard Card California** - iOS App for California security guard certification with training center locator and practice quizzes
 - **CPP Flashcard ASIS** - iOS App for ASIS Certified Protection Professional exam preparation
 - **Court Officer Flashcards App** - iOS App for NY Court Officer exam preparation
 

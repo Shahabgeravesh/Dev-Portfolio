@@ -24,6 +24,13 @@ function Projects() {
       image: "/images/DateGenie.png",
       appStoreLink: "https://apps.apple.com/us/app/dategenie/id6749169858",
       websiteLink: "#"
+    },
+    {
+      title: "Guard Card California",
+      description: "A comprehensive iOS app for California security guard certification. Features include step-by-step certification guide, BSIS-approved training center locator, LiveScan fingerprinting locations, official study materials, interactive practice quizzes with 52 questions, and streamlined application process through BSIS Breeze portal. Complete offline access for studying anywhere.",
+      image: "images/Guardcardca.jpg",
+      appStoreLink: "https://apps.apple.com/us/app/guard-card-california/id6751480977",
+      websiteLink: "#"
     }
   ];
 
