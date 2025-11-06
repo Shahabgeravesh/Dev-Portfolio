@@ -4,9 +4,10 @@
 Software Engineer and Data Scientist based in Daly City, CA. Specializing in full-stack development, mobile applications, and machine learning solutions.
 
 ## Featured Projects
-- CPP Flashcard ASIS - iOS App
-- Calculator Plus: All in One - iOS App
-- Weighttrail - iOS Fitness Tracking App
+- **DateGenie** - iOS Date Planning App with scratch-off functionality and 72 curated date ideas
+- **Guard Card California** - iOS App for California security guard certification with training center locator and practice quizzes
+- **CPP Flashcard ASIS** - iOS App for ASIS Certified Protection Professional exam preparation
+- **Court Officer Flashcards App** - iOS App for NY Court Officer exam preparation
 
 
 ## Publications
