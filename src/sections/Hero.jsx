@@ -2,6 +2,8 @@ import { Box, Typography, Container, Button, Stack, Avatar, Fade } from '@mui/ma
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 function Hero() {
+  const baseUrl = import.meta.env.BASE_URL;
+  
   return (
     <Box
       id="home"
@@ -58,7 +60,7 @@ function Hero() {
               }}
             >
               <Avatar
-                src="/images/profile.jpg"
+                src={`${baseUrl}images/profile.jpg`}
                 alt="Shahab Geravesh - Software Engineer and Data Scientist based in Daly City, CA"
                 sx={{
                   width: 220,

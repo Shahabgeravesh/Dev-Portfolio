@@ -5,46 +5,48 @@ import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 function Projects() {
   const [elementRef, isVisible] = useScrollAnimation({ threshold: 0.1, once: true });
+  const baseUrl = import.meta.env.BASE_URL;
+  
   const projects = [
     {
       title: "NYK Court Officer Flashcards",
       description: "An interactive iOS app designed to help candidates prepare for the NY Court Officer exam. Features include comprehensive flashcards covering key topics, memory & recall practice questions, reading comprehension exercises, grammar & spelling assessments, court terminology review, and situational judgment scenarios.",
-      image: "/images/nyk-court.jpg",
+      image: `${baseUrl}images/nyk-court.jpg`,
       appStoreLink: "https://apps.apple.com/us/app/court-officer-flashcards-app/id6744664594",
       websiteLink: "#"
     },
     {
       title: "CPP Flashcard ASIS",
       description: "A comprehensive iOS app designed to help professionals prepare for the ASIS Certified Protection Professional (CPP) exam. Features include flashcards covering all seven CPP domains, progress tracking, and offline access.",
-      image: "/images/cpp-flashcard.jpg",
+      image: `${baseUrl}images/cpp-flashcard.jpg`,
       appStoreLink: "https://apps.apple.com/us/app/cpp-flashcard-asis/id6741053163",
       websiteLink: "https://flashcpp.com"
     },
     {
       title: "Music Sheet Learn",
       description: "Master reading music notation with this comprehensive iOS app. Transform from music notation confusion to confident sheet music reader! Learn treble and bass clefs with interactive lessons, visual guides, and piano keyboard connections. Perfect for beginners and those looking to brush up their skills.",
-      image: "/images/music-sheet-learn.jpg",
+      image: `${baseUrl}images/music-sheet-learn.jpg`,
       appStoreLink: "https://apps.apple.com/us/app/music-sheet-learn/id6754809246",
       websiteLink: "#"
     },
     {
       title: "DateGenie",
       description: "A smart iOS app that helps users discover and plan memorable dates with scratch-off date ideas. Features include personalized date suggestions, location-based recommendations, and the ability to save and share favorite date ideas.",
-      image: "/images/dategenie.jpg",
+      image: `${baseUrl}images/dategenie.jpg`,
       appStoreLink: "https://apps.apple.com/us/story/id1535099772",
       websiteLink: "#"
     },
     {
       title: "Tennis Score Keeper",
       description: "Track tennis matches like a pro! Beautiful, intuitive score keeper with tiebreaks, match history, and court mode. Features comprehensive scoring (sets, games, points), automatic set and match win detection, match history, customizable player names, and a modern dark theme optimized for outdoor viewing.",
-      image: "/images/tennis-score-keeper.jpg",
+      image: `${baseUrl}images/tennis-score-keeper.jpg`,
       appStoreLink: "https://apps.apple.com/us/app/tennis-score-keeper/id6754825833",
       websiteLink: "#"
     },
     {
       title: "Guard Card California",
       description: "A specialized iOS app designed to help security professionals in California prepare for their guard card certification. Features include comprehensive study materials, practice exams, flashcards covering state-specific regulations, and progress tracking for exam preparation.",
-      image: "/images/guard-card-california.jpg",
+      image: `${baseUrl}images/guard-card-california.jpg`,
       appStoreLink: "https://apps.apple.com/us/app/guard-card-california/id6751480977",
       websiteLink: "#"
     }
@@ -140,7 +142,8 @@ function Projects() {
                   loading="lazy"
                   onError={(e) => {
                     console.error(`Failed to load image: ${project.image}`);
-                    e.target.src = '/images/placeholder.jpg';
+                    const baseUrl = import.meta.env.BASE_URL;
+                    e.target.src = `${baseUrl}images/placeholder.jpg`;
                   }}
                   sx={{ 
                     objectFit: 'contain',
