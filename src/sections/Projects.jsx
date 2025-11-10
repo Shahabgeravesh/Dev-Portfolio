@@ -49,7 +49,14 @@ function Projects() {
       image: `${baseUrl}images/guard-card-california.jpg`,
       appStoreLink: "https://apps.apple.com/us/app/guard-card-california/id6751480977",
       websiteLink: "#"
-    }
+    },
+    {
+      title: "Public Speaking Academy",
+      description: "Master public speaking with structured lessons and 12 progressive modules. Includes 180+ expert-crafted practice cards, progress tracking, and a personal journal to build confidence, clarity, and persuasive communication skills.",
+      image: `${baseUrl}images/public-speaking-academy.jpg`,
+      appStoreLink: "https://apps.apple.com/us/app/public-speaking-academy/id6755028699",
+      websiteLink: "#"
+    },
   ];
 
   const projectColors = [
@@ -59,6 +66,7 @@ function Projects() {
     { gradient: 'linear-gradient(135deg, #10b981 0%, #f59e0b 100%)' },
     { gradient: 'linear-gradient(135deg, #f59e0b 0%, #ef4444 100%)' },
     { gradient: 'linear-gradient(135deg, #ef4444 0%, #6366f1 100%)' },
+    { gradient: 'linear-gradient(135deg, #8b5cf6 0%, #ef4444 100%)' },
   ];
 
   return (

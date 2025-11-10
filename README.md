@@ -42,6 +42,11 @@ A specialized iOS app designed to help security professionals in California prep
 
 [App Store Link](https://apps.apple.com/us/app/guard-card-california/id6751480977)
 
+### Public Speaking Academy
+Master public speaking with structured lessons and 12 progressive modules. Features 180+ expert-crafted practice cards, progress tracking, and a personal journal to build clarity, confidence, and persuasive communication skills.
+
+[App Store Link](https://apps.apple.com/us/app/public-speaking-academy/id6755028699)
+
 ## Research Publications
 
 **Artificial Neural Networks for Human Activity Recognition Using Sensor Based Dataset**
