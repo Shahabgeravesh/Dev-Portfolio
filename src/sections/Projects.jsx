@@ -53,7 +53,7 @@ function Projects() {
     {
       title: "Public Speaking Academy",
       description: "Master public speaking with structured lessons and 12 progressive modules. Includes 180+ expert-crafted practice cards, progress tracking, and a personal journal to build confidence, clarity, and persuasive communication skills.",
-      image: `${baseUrl}images/public-speaking-academy.jpg`,
+      image: `${baseUrl}images/PublicSpeaking.png`,
       appStoreLink: "https://apps.apple.com/us/app/public-speaking-academy/id6755028699",
       websiteLink: "#"
     },
