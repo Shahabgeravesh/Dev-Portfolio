@@ -57,6 +57,13 @@ function Projects() {
       appStoreLink: "https://apps.apple.com/us/app/public-speaking-academy/id6755028699",
       websiteLink: "#"
     },
+    {
+      title: "Quick Draw",
+      description: "Draw fast, guess faster. A quick party game for everyone. Quick Draw is a fast, fun drawing-and-guessing party game. Draw a word, let friends guess, and rotate turns across multiple rounds. Great for quick matches and friendly competition.",
+      image: `${baseUrl}images/QuickDraw.png`,
+      appStoreLink: "https://apps.apple.com/us/app/quick-draw/id6757971448",
+      websiteLink: "#"
+    },
   ];
 
   const projectColors = [
@@ -67,6 +74,7 @@ function Projects() {
     { gradient: 'linear-gradient(135deg, #f59e0b 0%, #ef4444 100%)' },
     { gradient: 'linear-gradient(135deg, #ef4444 0%, #6366f1 100%)' },
     { gradient: 'linear-gradient(135deg, #8b5cf6 0%, #ef4444 100%)' },
+    { gradient: 'linear-gradient(135deg, #ec4899 0%, #f97316 100%)' },
   ];
 
   return (
