@@ -64,6 +64,13 @@ function Projects() {
       appStoreLink: "https://apps.apple.com/us/app/quick-draw/id6757971448",
       websiteLink: "#"
     },
+    {
+      title: "Spanish Deck",
+      description: "A focused Spanish practice app for adults. Study full flashcard decks — Foundations, Grammar, Requests, Daily Life, Verbs, Numbers, and Colors — with Learn and Recall modes. Read 31 short nightly stories, then prove it in Exam mode. Progress stays on-device. No account, no ads.",
+      image: `${baseUrl}images/SpanishDeck.png`,
+      appStoreLink: "https://apps.apple.com/us/app/spanish-deck/id6794914193",
+      websiteLink: "https://shahabgeravesh.github.io/Spanish-Flashcard/"
+    },
   ];
 
   const projectColors = [
